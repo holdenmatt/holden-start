@@ -1,12 +1,13 @@
 {
-  "name": "holden-starter",
+  "name": "holdenstack",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "add-ui": "pnpm dlx shadcn@latest add"
   },
   "dependencies": {
     "@radix-ui/react-dropdown-menu": "^2.1.15",

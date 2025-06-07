@@ -25,3 +25,6 @@ Works well with LLMs like Claude Code and Cursor.
   $ git clone https://github.com/holdenmatt/holdenstack
   $ pnpm i
   $ pnpm dev
+
+🛠️  Scripts:
+  $ pnpm add-ui dialog  # Add shadcn components
