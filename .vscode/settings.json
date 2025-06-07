@@ -1,0 +1,24 @@
+{
+  // Setup Tailwind
+  // (https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+
+  // Setup Prettier
+  // (https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+
+  // Setup ESLint
+  // (https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  // Preferences
+  "typescript.preferences.importModuleSpecifier": "non-relative"
+}
