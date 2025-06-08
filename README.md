@@ -1,12 +1,7 @@
-
-╦ ╦╔═╗╦  ╔╦╗╔═╗╔╗╔╔═╗╔╦╗╔═╗╔═╗╦╔═
-╠═╣║ ║║   ║║║╣ ║║║╚═╗ ║ ╠═╣║  ╠╩╗
-╩ ╩╚═╝╩═╝═╩╝╚═╝╝╚╝╚═╝ ╩ ╩ ╩╚═╝╩ ╩
-
 README.md  
 ══════════════════════════════════════════════════════════
 
-My opinionated starter for new web projects in 2025.
+An opinionated starter for new web projects in 2025.
 Works well with LLMs like Claude Code and Cursor.
 
 📚 Core stack:
@@ -16,7 +11,6 @@ Works well with LLMs like Claude Code and Cursor.
   • Mode toggle (next-themes)
 
 🚀 DevX:
-  • TypeScript
   • pnpm + turbopack
   • ESLint + Prettier
   • Autosort imports and tailwind classes
@@ -28,3 +22,4 @@ Works well with LLMs like Claude Code and Cursor.
 
 🛠️  Scripts:
   $ pnpm add-ui dialog  # Add shadcn components
+  $ pnpm bump           # Update deps (interactive)
