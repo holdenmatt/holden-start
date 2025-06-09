@@ -13,12 +13,8 @@ Works well with LLMs like Claude Code and Cursor.
 • Next.js 15 (App Router)
 • Tailwind 4
 • shadcn/ui components
-• Mode toggle (next-themes)
-
-🚀 DevX:
-• pnpm + turbopack
-• ESLint + Prettier
-• Autosort imports and tailwind classes
+• pnpm + Turbopack
+• ESLint & Prettier (auto-sorted imports + Tailwind classes)
 
 📦 Get Started:
 $ git clone https://github.com/holdenmatt/holdenstack

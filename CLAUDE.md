@@ -1,14 +1,14 @@
-# 🖥️ Bash commands
-
-- pnpm lint            # Run ESLint
-- pnpm type-check      # Run the TS compiler in --noEmit mode
-- pnpm format          # Fix Prettier issues in place
-- pnpm format:check    # Verify Prettier formatting
-- pnpm test            # Run unit tests (vitest)
-
 # 🎨 Code style
 
 - Prefer named exports over default exports
+
+# 🖥️ Bash commands
+
+- pnpm type-check      # Run the TS compiler in --noEmit mode
+- pnpm lint            # Run ESLint
+- pnpm format          # Fix Prettier issues in place
+- pnpm format:check    # Verify Prettier formatting
+- pnpm test            # Run unit tests (vitest)
 
 # ✅ Quality Gates
 
