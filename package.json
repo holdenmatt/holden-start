@@ -7,6 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "type-check": "tsc --pretty --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "bump": "pnpm dlx npm-check-updates --interactive",
     "add-ui": "pnpm dlx shadcn@latest add"
   },

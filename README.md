@@ -1,7 +1,7 @@
-README.md  
-══════════════════════════════════════════════════════════
+# holdenstack
 
-An opinionated starter for new web projects in 2025.
+My opinionated starter for new web projects in 2025.
+
 Works well with LLMs like Claude Code and Cursor.
 
 📚 Core stack:

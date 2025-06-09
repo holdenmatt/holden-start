@@ -1,3 +1,5 @@
 # Don't reformat shadcn/ui components
 src/components/ui/**
+
 README.md
+CLAUDE.md
