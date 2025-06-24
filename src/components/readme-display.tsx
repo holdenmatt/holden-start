@@ -17,7 +17,7 @@ Works well with LLMs like Claude Code and Cursor.
 • ESLint & Prettier (auto-sorted imports + Tailwind classes)
 
 📦 Get Started:
-$ git clone https://github.com/holdenmatt/holdenstack
+$ git clone https://github.com/holdenmatt/holden-start
 $ pnpm i
 $ pnpm dev
 

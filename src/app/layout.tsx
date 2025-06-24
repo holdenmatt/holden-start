@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "holdenstack",
+  title: "holden-start",
   description: "An opinionated starter for new web projects",
 };
 
