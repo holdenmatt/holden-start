@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "prod": "vercel --prod",
     "test": "vitest",
     "test:run": "vitest run",
     "type-check": "tsc --pretty --noEmit",
