@@ -17,9 +17,3 @@ git clone https://github.com/holdenmatt/holdenstack
 pnpm i
 pnpm dev
 ```
-
-🛠️  Scripts:
-```bash
-$ pnpm add-ui dialog    # Add shadcn components
-$ pnpm bump             # Update dependencies
-```

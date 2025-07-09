@@ -1,19 +1,14 @@
-# 🎨 Code style
+# CLAUDE.md
 
-- Prefer named exports over default exports
+## 📚 Onboarding
 
-# 🖥️ Bash commands
+At the start of each session, read:
+1. Any `README.md` docs across the project
+2. Any `README.*.md` docs across the project
 
-- pnpm type-check      # Run the TS compiler in --noEmit mode
-- pnpm lint            # Run ESLint
-- pnpm format          # Fix Prettier issues in place
-- pnpm format:check    # Verify Prettier formatting
-- pnpm test            # Run unit tests (vitest) in watch mode
-- pnpm test:run        # Run unit tests once
+## ✅ Quality Gates
 
-# ✅ Quality Gates
-
-Claude must not finish until all of these succeed:
+When writing code, Claude must not finish until all of these succeed:
 
 1. `pnpm type-check`
 2. `pnpm lint`
