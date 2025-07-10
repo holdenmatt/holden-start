@@ -2,7 +2,7 @@
 
 Configure a new project after cloning the [holden-start](https://github.com/holdenmatt/holden-start) template.
 
-(_This is a plain English executable - paste into Claude Code, Cursor, Codex, or Jules to run._)
+(_This is a fuzzy executable - paste into a tool like Claude Code or Cursor to run it._)
 
 ## Context
 

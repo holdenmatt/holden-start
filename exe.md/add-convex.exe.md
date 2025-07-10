@@ -2,7 +2,7 @@
 
 Add Convex backend and database to your Next.js project.
 
-_This is a plain English executable - paste into Claude Code, Cursor, Codex, or Jules to run._
+(_This is a fuzzy executable - paste into a tool like Claude Code or Cursor to run it._)
 
 ## Context
 
@@ -11,13 +11,18 @@ https://docs.convex.dev/quickstart/nextjs
 
 ## Tasks
 
-### 1. Install Convex
+### 1. Set working directory as the project root
+```bash
+cd [path-to-app]
+```
+
+### 2. Install Convex
 
 ```bash
 pnpm add convex
 ```
 
-### 2. Initialize Convex
+### 3. Initialize Convex
 
 Display these instructions to the user:
 
@@ -25,18 +30,14 @@ Display these instructions to the user:
 Please complete the following manual steps:
 
 1. Open a new terminal in your project directory
-2. Run: npx convex dev
-3. Follow the prompts to:
-   - Log in with GitHub
-   - Create a new project
-   - Choose a project name
-4. Keep this terminal running (it syncs your functions)
-5. Tell me when you see "Watching for file changes..."
+2. Run: npx convex dev (and follow the prompts to create a new project)
+3. Keep this terminal running (it syncs your functions)
+4. Tell me when you see "Convex functions ready!"
 ```
 
 Wait for the user to confirm they've completed these steps before continuing.
 
-### 3. Create the client provider
+### 4. Create the client provider
 
 Create `components/providers/ConvexClientProvider.tsx`:
 
@@ -53,7 +54,7 @@ export function ConvexClientProvider({ children }: { children: ReactNode }) {
 }
 ```
 
-### 4. Wire up the provider
+### 5. Wire up the provider
 
 In `app/layout.tsx`, import and wrap the body content:
 
@@ -68,7 +69,7 @@ import { ConvexClientProvider } from "@/components/providers/ConvexClientProvide
 </body>;
 ```
 
-### 5. Create a sample API function
+### 6. Create a sample API function
 
 Create `convex/tasks.ts` as an example:
 
@@ -98,6 +99,8 @@ Then run:
 ```bash
 npx convex import --table tasks sampleData.jsonl
 ```
+
+After importing, delete the sampleData.jsonl file.
 
 ### 7. Update the homepage to test
 
