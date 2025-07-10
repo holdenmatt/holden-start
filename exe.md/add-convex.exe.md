@@ -134,3 +134,26 @@ Then update just the main section:
   })()}
 </main>
 ```
+
+### 8. Update Vercel build command
+
+1. Navigate to the NextJS project root:
+```bash
+cd [path-to-app]
+```
+
+2. Check if this project is deployed to Vercel by looking for .vercel/project.json
+   - If not found, skip (project isn't deployed to Vercel yet)
+
+3. If it's a Vercel project, check if vercel.json exists in the project root
+
+4. If vercel.json exists:
+   - Parse the existing JSON
+   - Add or update the "buildCommand" field to: "npx convex deploy --cmd 'npm run build'"
+   - Preserve all other existing configuration
+
+5. If vercel.json doesn't exist:
+   - Create vercel.json with:
+   {
+     "buildCommand": "npx convex deploy --cmd 'npm run build'"
+   }
