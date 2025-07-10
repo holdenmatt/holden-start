@@ -1,7 +1,6 @@
 import { Container } from "@/components/atoms/container";
 import { ExternalLink } from "@/components/atoms/external-link";
 import { DarkModeToggle } from "@/components/atoms/mode-toggle";
-import { ReadmeDisplay } from "@/components/readme-display";
 
 export default function Home() {
   return (
@@ -11,7 +10,10 @@ export default function Home() {
           <DarkModeToggle className="ml-auto" />
         </header>
         <main className="flex flex-col items-center">
-          <ReadmeDisplay />
+          <blockquote className="text-muted-foreground max-w-2xl text-center text-2xl">
+            &quot;Questions are places in your mind where answers fit. If you
+            haven&apos;t asked the question, the answer has nowhere to go&quot;
+          </blockquote>
         </main>
         <footer className="flex h-16 flex-wrap items-center justify-center gap-4">
           <ExternalLink href="https://x.com/holdenmatt">
