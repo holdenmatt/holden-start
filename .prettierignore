@@ -4,3 +4,4 @@ pnpm-lock.yaml
 
 # Don't reformat shadcn/ui components
 src/components/ui/**
+exe.md/**
