@@ -17,12 +17,12 @@ I've created a new project from the template and need to set it up.
 - For description, suggest something simple based on the name (avoid buzzwords like "AI-powered", "revolutionary", etc.)
 - Update package.json with the final name and description
 
-### 2. Update metadata in app/layout.tsx
+### 2. Update metadata in src/app/layout.tsx
 
 - Replace `title: "holden-start"` with the project name
 - Replace the description with the simple description from package.json
 
-### 3. Update homepage (app/page.tsx)
+### 3. Update homepage (src/app/page.tsx)
 
 - Replace the quote with a simple heading using the project name
 - Add a one-line description if it makes sense

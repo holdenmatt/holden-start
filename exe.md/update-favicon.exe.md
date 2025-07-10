@@ -23,7 +23,7 @@ If user provides input, use it. Otherwise, choose an emoji and gradient colors t
 Avoid cliche choices (🚀💡🔥⚡ for emojis, blue/indigo for colors).
 
 ### 2. Generate favicon SVG
-Create `app/icon.svg` with this template:
+Create `src/app/icon.svg` with this template:
 
 ```svg
 <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -43,8 +43,8 @@ Replace:
 - `[EMOJI]` with the chosen emoji
 
 ### 3. Create the favicon
-Save the SVG as `app/icon.svg`.
+Save the SVG as `src/app/icon.svg`.
 
 ### 4. Clean up old favicon
 Delete the default favicon:
-- `app/favicon.ico`
+- `src/app/favicon.ico`
