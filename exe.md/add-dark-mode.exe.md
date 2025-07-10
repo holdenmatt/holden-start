@@ -6,7 +6,12 @@ Add dark mode support to your project using next-themes and shadcn/ui.
 
 ## Tasks
 
-### 1. Install
+### 1. Set working directory as the project root
+```bash
+cd [path-to-app]
+```
+
+### 2. Install
 
 ```bash
 pnpm add next-themes
