@@ -1,13 +1,12 @@
 import { Container } from "@/components/atoms/container";
 import { ExternalLink } from "@/components/atoms/external-link";
-import { DarkModeToggle } from "@/components/atoms/mode-toggle";
 
 export default function Home() {
   return (
     <Container>
       <div className="grid min-h-screen grid-rows-[auto_1fr_auto] items-center justify-items-center">
         <header className="container flex h-16 items-center justify-center">
-          <DarkModeToggle className="ml-auto" />
+          {/* Space for logo, nav, or actions */}
         </header>
         <main className="flex flex-col items-center">
           <blockquote className="text-muted-foreground max-w-2xl text-center text-2xl">

@@ -2,7 +2,7 @@
 
 Configure a new project after cloning the [holden-start](https://github.com/holdenmatt/holden-start) template.
 
-This is a plain English executable intended to be run by an AI coding assistant like Claude Code, Cursor, Codex, or Jules. Just start a new session and paste this fuzzy source code in.
+(_This is a plain English executable - paste into Claude Code, Cursor, Codex, or Jules to run._)
 
 ## Context
 
