@@ -1,5 +1,7 @@
 # CLAUDE.md
 
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
 ## 📚 Onboarding
 
 At the start of each session, read:
@@ -15,10 +17,4 @@ When writing code, Claude must not finish until all of these succeed:
 3. `pnpm format:check`
 4. All unit tests (`pnpm test:run`) pass
 
-If any step fails:
-
-- Print the error summary (or the list of unformatted files).
-- Apply fixes (run `pnpm format` if needed).
-- Re-run only the failed step, then continue the list.
-
-Always run `pnpm format:check` first, and only run `pnpm format` if needed to fix errors.
+If any step fails, fix the issues and run checks again.
