@@ -7,14 +7,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 At the start of each session, read:
 1. Any `**/README.md` docs across the project
 2. Any `**/README.*.md` docs across the project
+3. `justfile` to see what commands are available to run
 
 ## ✅ Quality Gates
 
-When writing code, Claude must not finish until all of these succeed:
+Before finishing any code changes:
+1. Run `just format` to auto-fix all formatting/linting issues
+2. Run `just check` to verify everything passes
 
-1. `pnpm type-check`
-2. `pnpm lint`
-3. `pnpm format:check`
-4. All unit tests (`pnpm test:run`) pass
-
-If any step fails, fix the issues and run checks again.
+If `just check` fails, fix the issues and run both commands again.
