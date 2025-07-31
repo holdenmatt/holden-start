@@ -7,14 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prod": "vercel --prod",
     "test": "vitest",
-    "test:run": "vitest run",
-    "type-check": "tsc --pretty --noEmit",
-    "format": "prettier --write .",
-    "format:check": "prettier --check .",
-    "bump": "pnpm dlx npm-check-updates --interactive",
-    "add-ui": "pnpm dlx shadcn@latest add"
+    "test:run": "vitest run"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
