@@ -60,12 +60,6 @@ Then wrap the body content:
 </body>
 ```
 
-Also add `suppressHydrationWarning` to the html tag:
-
-```tsx
-<html lang="en" suppressHydrationWarning>
-```
-
 ### 4. Create dark mode toggle
 
 Create `components/atoms/mode-toggle.tsx`:
