@@ -39,7 +39,7 @@ Wait for the user to confirm they've completed these steps before continuing.
 
 ### 4. Create the client provider
 
-Create `components/providers/ConvexClientProvider.tsx`:
+Create `src/components/providers/ConvexClientProvider.tsx`:
 
 ```tsx
 "use client";
