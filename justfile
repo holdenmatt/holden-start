@@ -1,3 +1,5 @@
+mod git 'just/git.just'
+
 # List available commands
 default:
     @just --list
