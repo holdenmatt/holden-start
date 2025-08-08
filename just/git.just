@@ -5,8 +5,21 @@ commit:
     #!/usr/bin/env bash
     # Check if anything is staged
     if [ -z "$(git diff --cached --stat)" ]; then
-        echo "Nothing staged. Run: git add <files>"
-        exit 1
+        # Check if there are any changes at all
+        if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes to commit"
+            exit 0
+        fi
+        
+        echo "Nothing staged. Stage all changes? (y/n)"
+        read -r response
+        if [[ "$response" == "y" ]]; then
+            git add --all
+            echo "Staged all changes"
+        else
+            echo "Run: git add <files>"
+            exit 1
+        fi
     fi
     
     # Generate commit message
