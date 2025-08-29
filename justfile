@@ -1,5 +1,3 @@
-mod git 'just/git.just'
-
 # List available commands
 default:
     @just --list
@@ -38,10 +36,10 @@ dev:
 build:
     pnpm build
 
-# Run tests in watch mode
-test:
-    pnpm vitest
-
 # Run all tests once  
-test-run:
+test:
     pnpm vitest run
+
+# Run tests in watch mode
+test-watch:
+    pnpm vitest
