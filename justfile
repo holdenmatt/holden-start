@@ -2,16 +2,14 @@
 default:
     @just --list
 
-# Auto-fix all formatting and linting issues
+# Auto-fix all formatting and linting issues (Ultracite/Biome)
 format:
-    pnpm prettier --write .          # Fix formatting
-    pnpm lint --fix                  # Fix linting
+    pnpm format                      # Format code and apply safe fixes
 
 # Verify code quality and tests pass
 check:
     pnpm tsc --pretty --noEmit       # Check types
-    pnpm prettier --check .          # Check formatting
-    pnpm lint                        # Check linting
+    pnpm lint                        # Lint (no fixes)
     pnpm vitest run                  # Run tests
 
 # Update dependencies interactively
