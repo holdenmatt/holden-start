@@ -1,5 +1,5 @@
-import { Container } from "@/components/atoms/container";
-import { ExternalLink } from "@/components/atoms/external-link";
+import { Container } from '@/components/atoms/container';
+import { ExternalLink } from '@/components/atoms/external-link';
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
           {/* Space for logo, nav, or actions */}
         </header>
         <main className="flex flex-col items-center">
-          <blockquote className="text-muted-foreground max-w-2xl text-center text-2xl">
+          <blockquote className="max-w-2xl text-center text-2xl text-muted-foreground">
             &quot;Questions are places in your mind where answers fit. If you
             haven&apos;t asked the question, the answer has nowhere to go&quot;
           </blockquote>
@@ -18,7 +18,7 @@ export default function Home() {
           <ExternalLink href="https://x.com/holdenmatt">
             @holdenmatt
           </ExternalLink>
-          <span className="text-muted-foreground select-none">·</span>
+          <span className="select-none text-muted-foreground">·</span>
           <ExternalLink href="https://github.com/holdenmatt">
             GitHub
           </ExternalLink>
