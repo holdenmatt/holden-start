@@ -1,10 +1,11 @@
-# CLAUDE.md
+# AGENTS.md
 
 This file provides guidance to coding agents when working with code in this repository.
 
 ## 📚 Onboarding
 
 At the start of each session, read:
+
 1. Any `**/README.md` docs across the project
 2. Any `**/README.*.md` docs across the project
 3. `justfile` to see what commands are available to run
@@ -12,6 +13,7 @@ At the start of each session, read:
 ## ✅ Quality Gates
 
 Before finishing any code changes:
+
 1. Run `just format` to auto-fix all formatting/linting issues
 2. Run `just check` to verify everything passes
 
