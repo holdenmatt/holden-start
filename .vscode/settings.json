@@ -1,6 +1,5 @@
 {
-  // Setup Tailwind
-  // (https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+  "typescript.preferences.importModuleSpecifier": "non-relative",
   "files.associations": {
     "*.css": "tailwindcss"
   },
@@ -8,17 +7,34 @@
     "strings": "on"
   },
 
-  // Setup Prettier
-  // (https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.defaultFormatter": "biomejs.biome",
   "editor.formatOnSave": true,
-
-  // Setup ESLint
-  // (https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+  "editor.formatOnPaste": true,
+  "emmet.showExpandedAbbreviation": "never",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+    "source.fixAll.biome": "explicit",
+    "source.organizeImports.biome": "explicit"
   },
-
-  // Preferences
-  "typescript.preferences.importModuleSpecifier": "non-relative"
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  }
 }

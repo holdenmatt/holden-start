@@ -6,9 +6,10 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "test": "vitest",
-    "test:run": "vitest run"
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "ultracite lint",
+    "format": "ultracite format"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
@@ -21,29 +22,18 @@
     "tailwind-merge": "^3.3.0"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
+    "@biomejs/biome": "^2.2.2",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "15.3.3",
-    "eslint-config-prettier": "^10.1.5",
-    "eslint-plugin-simple-import-sort": "^12.1.1",
     "happy-dom": "^17.6.3",
-    "prettier": "^3.5.3",
-    "prettier-plugin-tailwindcss": "^0.6.12",
     "tailwindcss": "^4",
     "tw-animate-css": "^1.3.4",
     "typescript": "^5",
+    "ultracite": "^5.2.10",
     "vite-tsconfig-paths": "^5.1.4",
     "vitest": "^3.2.3"
   },
-  "prettier": {
-    "printWidth": 80,
-    "tabWidth": 2,
-    "plugins": [
-      "prettier-plugin-tailwindcss"
-    ]
-  }
+  "packageManager": "pnpm@10.15.0"
 }
