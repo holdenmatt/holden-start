@@ -1,0 +1,10 @@
+pnpm-lock.yaml
+justfile
+
+# Don't reformat shadcn/ui components
+src/components/ui/**
+
+README.md
+AGENTS.md
+CLAUDE.md
+exe.md/**
