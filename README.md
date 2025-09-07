@@ -8,7 +8,7 @@ An opinionated starter for new web projects, optimized for building with tools l
 - Tailwind 4
 - shadcn/ui components
 - pnpm + Turbopack
-- Biome/Ultracite for strict formatting/linting (and auto-sorted imports + Tailwind classes)
+- ESLint/Prettier for formatting/linting (and auto-sorted imports + Tailwind classes)
 
 ## Install
 
