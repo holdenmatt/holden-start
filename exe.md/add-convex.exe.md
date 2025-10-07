@@ -2,8 +2,6 @@
 
 Add Convex backend and database to your Next.js project.
 
-(_This is a fuzzy executable - paste into a tool like Claude Code or Cursor to run it._)
-
 ## Context
 
 I want to add Convex as my backend and database. First, read the official quickstart guide:

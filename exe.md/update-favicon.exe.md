@@ -2,7 +2,6 @@
 
 Replace the default Next.js favicon with a custom emoji-based design.
 
-(_This is a fuzzy executable - paste into a tool like Claude Code or Cursor to run it._)
 
 ## Context
 I want to replace the default Vercel favicon with something unique to my project.

@@ -2,8 +2,6 @@
 
 Add dark mode support to your project using next-themes and shadcn/ui.
 
-(_This is a fuzzy executable - paste into a tool like Claude Code or Cursor to run it._)
-
 ## Tasks
 
 ### 1. Set working directory as the project root

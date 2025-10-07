@@ -1,6 +1,6 @@
 # Deploy to Vercel
 
-These are instructions for Claude Code to deploy the current Next.js project to Vercel.
+These are instructions for a coding agent to deploy the current Next.js project to Vercel.
 
 ## Prerequisites Check
 
